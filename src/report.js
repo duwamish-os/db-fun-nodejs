@@ -7,6 +7,7 @@ var config = {
   password: 'secretpassword!!',
   database: 'analytics'
 }
+
 const client = new Client(config)
 
 client.connect((err) => {
@@ -17,8 +18,13 @@ client.connect((err) => {
   }
 })
 
-client.query('SELECT NOW()', (err, res) => {
-  console.log(err, res)
-  client.end()
-})
+const sql=``;
+
+exports.getData = () => {
+  client.query(sql, (err, res) => {
+    console.log(err, res)
+    client.end()
+  })
+}
+
 
