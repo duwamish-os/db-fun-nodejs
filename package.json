@@ -14,11 +14,26 @@
   "author": "prayagupd",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@material-ui/core": "^3.9.3",
     "aws-sdk": "^2.437.0",
     "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "hbs": "^4.0.3",
-    "pg": "^7.9.0"
+    "material-table": "^1.32.0",
+    "pg": "^7.9.0",
+    "react": "^16.8.6",
+    "react-bootstrap-table": "^4.3.1",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "webpack-cli": "^3.3.1"
   }
 }
